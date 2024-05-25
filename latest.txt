@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shreyas Kulkarni} \\ \vspace{1pt}
+    
+    \small \raisebox{-0.1\height}\faPhone\ 657-514-3075 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shreyaskulkarnisk2712@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/shreyas-kulkarni27}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faHome\ {Fullerton, CA}}
+    \vspace{-5pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California State University, Fullerton}{August 2022 -- May 2024}
+      {Master of Science, Computer Science}{Fullerton, CA}\\ \vspace{-1pt}
+  \resumeSubHeadingListEnd
+  \vspace{-6pt}
+
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {Vishwakarma Institute of Information Technology}{August 2018 -- May 2022}
+    {Bachelor of Technology, E\&TC\hfill}{Pune, India}
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Rocket Central}{May 2023 -- August 2023}
+      {Software Engineer Intern}{Detroit, MI}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a web application to generate mappings between data schemas using Angular, resulting in a 
+\textbf{45\%} reduction in handlebar template generation time }
+        \resumeItem{Leveraged \textbf{Angular} CDK’s drag-and-drop feature and Bootstrap to enhance user experience and functionality}
+        \resumeItem{Upgraded \textbf{10+} legacy project repositories with latest \textbf{Snyk} version to fix and monitor vulnerabilities using Circle-Ci CI/CD tool }
+        \resumeItem{Engineered unit tests using the Jest framework which boosted code coverage from \textbf{33\% to 75\%} }
+        \resumeItem{Implemented a \textbf{Kafka} subscription method for storing and processing data from Kafka event}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {PMA (Pune Management Association)}{
+July 2021 – January 2022}
+      {Intern (WEB DEV \& DEV-OPS) }{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Developed responsive websites using technologies such as REACTJS, Python Flask and Bootstrap \textbf{15+} clients }
+        \resumeItem{Gained knowledge over CI/CD workflow by building pipelines using Jenkins and different CI/CD tools resulting in a \textbf{17\%} 
+\textbf{increase} in production deployment reliability }
+        \resumeItem{Spearheaded deployment of Web-Apps using platforms such as Firebase and Heroku }
+        \resumeItem{Created and Deployed Docker Images providing portable environment for application, ensuring  \textbf{30\%} reduction in 
+deployment times and a \textbf{20\%} decrease in environment-related issues }
+\resumeItem{Boosted overall SonarQube code quality by improving JUnit code coverage by \textbf{15\%}, decreasing the sonar vulnerabilities 
+by \textbf{65\%}, and refactoring the legacy code }
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AttritionGuard } $|$ \emph{Python, Flask }}{
+January 2024 – April 2024}
+          \resumeItemListStart
+            \resumeItem{Established a machine learning model-based app for end-to-end employee attrition solutions using a diverse \textbf{IBM HR Dataset} }
+            \resumeItem{The application offers \textbf{key} insights by identifying top attrition-influencing factors and providing actionable recommendations 
+tailored to the data }
+            \resumeItem{Several classification algorithms were employed, with Random Forest achieving the highest accuracy of \textbf{97\%} }
+            \resumeItem{Integrated a user-friendly UI with a customizable dashboard, enabling HR and organizational leaders to easily interpret critical 
+analysis }
+            \resumeItem{Deployed the model on Flask server and pickled trained model to provide data-driven analysis becoming one stop solution for this 
+issue  }
+          \resumeItemListEnd
+          \vspace{-18pt}
+      \resumeProjectHeading
+          {\textbf{Housing Price Analysis } $|$ \emph{Java Spark, AWS}}{March 2023 – May 2023}
+          \resumeItemListStart
+            \resumeItem{Collected UK Housing dataset of around \textbf{2.41GB} as a form of Big data}
+            \resumeItem{Leveraged Apache \textbf{Spark} to efficiently extract targeted data from massive 2.41GB UK Housing dataset, primed for in
+depth analysis }
+            \resumeItem{Capitalized  Amazon \textbf{S3} bucket to store data and deployed instance of \textbf{EMR} cluster to process data }
+          \resumeItemListEnd 
+          \vspace{8pt}
+          
+    \resumeSubHeadingListEnd
+\vspace{-23pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages/Frameworks}{: C, C++, Python, Java, JavaScript, React, SQL, HTML, CSS, Angular, Node.js, TypeScript } \\
+     \textbf{Dev/Tools}{: Unit Testing, NPM, MATLAB, RESTful API’s, Jenkins, Docker, Git, Eclipse, Java Spark, Rx-JS} \\
+     \textbf{Databases/Domains}{: MySQL, MongoDB, Machine Learning, Web Development} \\
+     \textbf{Relevant Courses}{: Data Structures and algorithms, Database Management Systems, Object-Oriented Programming} \\
+     \textbf{Methodologies}{: Agile Methodology, SDLC } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        
+            \resumeItemListStart
+                \resumeItem{Awarded \textbf{International Students Scholarship} by CalState Fullerton University from a pool of \textbf{300+} students }
+                \resumeItem{\textbf{Certified} with Great Learning for course Cloud Computing Architecture }
+                \resumeItem{Led chapter of \textbf{30+} members to work towards goals that improve and promote community service, academics, and unity.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
