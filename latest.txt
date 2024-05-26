@@ -128,25 +128,31 @@
     \small \raisebox{-0.1\height}\faPhone\ 657-514-3075 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shreyaskulkarnisk2712@gmail.com}} ~ 
     \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/shreyas-kulkarni27}}  ~
     \href{https://github.com/}{\raisebox{-0.2\height}\faHome\ {Fullerton, CA}}
-    \vspace{-5pt}
+    \vspace{-11pt}
 \end{center}
-
-
+\section{Professional Summary}
+    %\resumeSubHeadingListStart
+        {Dynamic and detail-oriented Software Engineer with a Master's in Computer Science from California State University, Fullerton.  Demonstrated proficiency in developing innovative 
+solutions, with hands-on experience in machine learning, web development, and DevOps.}
+    %\resumeSubHeadingListEnd
+\vspace{-11pt}
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {California State University, Fullerton}{August 2022 -- May 2024}
-      {Master of Science, Computer Science}{Fullerton, CA}\\ \vspace{-1pt}
+      {Master of Science, Computer Science}{Fullerton, CA}
+      
   \resumeSubHeadingListEnd
-  \vspace{-6pt}
+\vspace{-10pt}  
 
   \resumeSubHeadingListStart
   \resumeSubheading
     {Vishwakarma Institute of Information Technology}{August 2018 -- May 2022}
-    {Bachelor of Technology, E\&TC\hfill}{Pune, India}
+    {Bachelor of Technology, E\&TC}{Pune, India}
+    
 \resumeSubHeadingListEnd
-\vspace{-16pt}
+\vspace{-19pt}
 
 
 
@@ -157,7 +163,8 @@
     \resumeSubheading
       {Rocket Central}{May 2023 -- August 2023}
       {Software Engineer Intern}{Detroit, MI}
-      \resumeItemListStart
+      
+      \resumeItemListStart\vspace{-6pt}
         \resumeItem{Designed and implemented a web application to generate mappings between data schemas using Angular, resulting in a 
 \textbf{45\%} reduction in handlebar template generation time }
         \resumeItem{Leveraged \textbf{Angular} CDK’s drag-and-drop feature and Bootstrap to enhance user experience and functionality}
@@ -165,7 +172,7 @@
         \resumeItem{Engineered unit tests using the Jest framework which boosted code coverage from \textbf{33\% to 75\%} }
         \resumeItem{Implemented a \textbf{Kafka} subscription method for storing and processing data from Kafka event}
       \resumeItemListEnd
-
+\vspace{-5pt}
     \resumeSubheading
       {PMA (Pune Management Association)}{
 July 2021 – January 2022}
@@ -192,16 +199,13 @@ by \textbf{65\%}, and refactoring the legacy code }
           {\textbf{AttritionGuard } $|$ \emph{Python, Flask }}{
 January 2024 – April 2024}
           \resumeItemListStart
-            \resumeItem{Established a machine learning model-based app for end-to-end employee attrition solutions using a diverse \textbf{IBM HR Dataset} }
-            \resumeItem{The application offers \textbf{key} insights by identifying top attrition-influencing factors and providing actionable recommendations 
-tailored to the data }
-            \resumeItem{Several classification algorithms were employed, with Random Forest achieving the highest accuracy of \textbf{97\%} }
-            \resumeItem{Integrated a user-friendly UI with a customizable dashboard, enabling HR and organizational leaders to easily interpret critical 
-analysis }
-            \resumeItem{Deployed the model on Flask server and pickled trained model to provide data-driven analysis becoming one stop solution for this 
-issue  }
+            \resumeItem{Established a machine learning-based app for holistic solutions for employee attrition using a diverse \textbf{IBM HR dataset} }\vspace{-11pt}
+            \resumeItem{The application identifies \textbf{key} attrition factors, offers actionable recommendations tailored to data, and reduces turnover by \textbf{18\%}, saving \textbf{\$250,000} annually in hiring costs}
+            \resumeItem{Employed various classification techniques, identifying Random Forest as the top performer with \textbf{97\%} accuracy }
+            \resumeItem{Integrated a user-friendly UI with a \textbf{customizable} dashboard for HR and executive leaders to interpret critical analysis}
+            \resumeItem{Deployed the model on a \textbf{Flask} server \& pickled the trained model to provide a one-stop solution for data-driven analysis}
           \resumeItemListEnd
-          \vspace{-18pt}
+          \vspace{-30pt}
       \resumeProjectHeading
           {\textbf{Housing Price Analysis } $|$ \emph{Java Spark, AWS}}{March 2023 – May 2023}
           \resumeItemListStart
@@ -213,8 +217,18 @@ depth analysis }
           \vspace{8pt}
           
     \resumeSubHeadingListEnd
-\vspace{-23pt}
-
+\vspace{-29pt}
+\resumeProjectHeading
+          {\textbf{Geo Quiz App } $|$ \emph{Kotlin, Android Studio}}{September 2022 – October 2022}
+          \resumeItemListStart\vspace{3pt}
+            \resumeItem{Utilized Android Studio to create an app evaluating user's general knowledge }\vspace{-5pt}
+            \resumeItem{Orchestrated an interactive poll that immerses users in a true-or-false challenge, with a toast message for quick feedback} \vspace{-18pt}
+            \resumeItem{Provided audio functionality by leveraging Text-to-Speech library for alerts, causing a substantial increase in app usage  }
+          \resumeItemListEnd 
+          
+          
+    \resumeSubHeadingListEnd
+\vspace{-9pt}
 
 %
 %-----------PROGRAMMING SKILLS-----------
@@ -236,9 +250,9 @@ depth analysis }
     \resumeSubHeadingListStart
         
             \resumeItemListStart
-                \resumeItem{Awarded \textbf{International Students Scholarship} by CalState Fullerton University from a pool of \textbf{300+} students }
-                \resumeItem{\textbf{Certified} with Great Learning for course Cloud Computing Architecture }
-                \resumeItem{Led chapter of \textbf{30+} members to work towards goals that improve and promote community service, academics, and unity.}
+                \resumeItem {Awarded \textbf{International Students Scholarship} by CalState Fullerton University from a pool of \textbf{300+} students } \vspace{-5pt}
+                \resumeItem{\textbf{Certified} with Great Learning for course Cloud Computing Architecture }\vspace{-5pt}
+                
             \resumeItemListEnd
         
     \resumeSubHeadingListEnd
